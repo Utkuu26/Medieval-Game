@@ -470,67 +470,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1001 &58208406
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1506066517857873105, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1506066517857873105, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 107.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1506066517857873105, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1506066517857873105, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -15.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1506066517857873105, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1506066517857873105, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1506066517857873105, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1506066517857873105, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1506066517857873105, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1506066517857873105, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1506066517857873105, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2282567620030330475, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-      propertyPath: m_Name
-      value: Paladin J Nordstrom@Breathing Idle Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 2282567620030330475, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
 --- !u!1001 &65061619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6016,6 +5955,7 @@ MonoBehaviour:
   remaingEnemyTxt: {fileID: 1019917026}
   damageTxt: {fileID: 7248307028288668495, guid: 8e66daca3102d954a91645fe319fe647, type: 3}
   trigger: {fileID: 0}
+  isLevel2: 1
 --- !u!82 &686978746
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6139,7 +6079,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 4
   m_CollisionDetection: 0
 --- !u!1001 &699673251
 PrefabInstance:
@@ -6949,6 +6889,7 @@ MonoBehaviour:
   remaingEnemyTxt: {fileID: 1019917026}
   damageTxt: {fileID: 7248307028288668495, guid: 8e66daca3102d954a91645fe319fe647, type: 3}
   trigger: {fileID: 0}
+  isLevel2: 1
 --- !u!82 &743509488
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7072,7 +7013,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 4
   m_CollisionDetection: 0
 --- !u!1001 &743975767
 PrefabInstance:
@@ -7319,8 +7260,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &750915042 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1526822872, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-  m_PrefabInstance: {fileID: 58208406}
+  m_CorrespondingSourceObject: {fileID: 3976945877778037529, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
+  m_PrefabInstance: {fileID: 3976945877027387131}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &754656864
 PrefabInstance:
@@ -8939,8 +8880,8 @@ BoxCollider:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &983492973 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 2127237357, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-  m_PrefabInstance: {fileID: 58208406}
+  m_CorrespondingSourceObject: {fileID: 3976945877405474710, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
+  m_PrefabInstance: {fileID: 3976945877027387131}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &987676949
 PrefabInstance:
@@ -9169,6 +9110,7 @@ MonoBehaviour:
   remaingEnemyTxt: {fileID: 1019917026}
   damageTxt: {fileID: 7248307028288668495, guid: 8e66daca3102d954a91645fe319fe647, type: 3}
   trigger: {fileID: 0}
+  isLevel2: 1
 --- !u!82 &995910771
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9292,7 +9234,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 4
   m_CollisionDetection: 0
 --- !u!1 &997551217 stripped
 GameObject:
@@ -9499,7 +9441,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Remaining Enemy: 5'
+  m_text: 'Remaining Enemy: 4'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -10380,8 +10322,8 @@ BoxCollider:
   m_Center: {x: 0.22974074, y: 3.269064, z: -0.45485592}
 --- !u!114 &1126590276 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1426374276, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-  m_PrefabInstance: {fileID: 58208406}
+  m_CorrespondingSourceObject: {fileID: 3976945875901321663, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
+  m_PrefabInstance: {fileID: 3976945877027387131}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -10391,13 +10333,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!82 &1126590280 stripped
 AudioSource:
-  m_CorrespondingSourceObject: {fileID: 1426374277, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-  m_PrefabInstance: {fileID: 58208406}
+  m_CorrespondingSourceObject: {fileID: 3976945875901321651, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
+  m_PrefabInstance: {fileID: 3976945877027387131}
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &1126590281 stripped
 Animator:
-  m_CorrespondingSourceObject: {fileID: 1426374271, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
-  m_PrefabInstance: {fileID: 58208406}
+  m_CorrespondingSourceObject: {fileID: 3976945875901321650, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
+  m_PrefabInstance: {fileID: 3976945877027387131}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1135683032 stripped
 GameObject:
@@ -13177,6 +13119,7 @@ MonoBehaviour:
   remaingEnemyTxt: {fileID: 1019917026}
   damageTxt: {fileID: 7248307028288668495, guid: 8e66daca3102d954a91645fe319fe647, type: 3}
   trigger: {fileID: 0}
+  isLevel2: 1
 --- !u!114 &1479612444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13337,7 +13280,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 4
   m_CollisionDetection: 0
 --- !u!95 &1479612449 stripped
 Animator:
@@ -14119,6 +14062,7 @@ MonoBehaviour:
   remaingEnemyTxt: {fileID: 1019917026}
   damageTxt: {fileID: 7248307028288668495, guid: 8e66daca3102d954a91645fe319fe647, type: 3}
   trigger: {fileID: 0}
+  isLevel2: 0
 --- !u!65 &1591239765
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18519,6 +18463,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3976945877027387131
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3976945875901321649, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976945875901321649, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 107.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976945875901321649, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976945875901321649, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976945875901321649, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976945875901321649, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976945875901321649, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976945875901321649, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976945875901321649, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976945875901321649, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976945875901321649, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976945877058418320, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
+      propertyPath: m_Name
+      value: Paladin J Nordstrom@Breathing Idle Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0717f887ba919514a8ba267c6ff1be97, type: 3}
 --- !u!1 &4448005679010951492
 GameObject:
   m_ObjectHideFlags: 0

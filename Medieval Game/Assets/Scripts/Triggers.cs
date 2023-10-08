@@ -28,14 +28,14 @@ public class Triggers : MonoBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
-        if(this.gameObject.tag == "Trigger1")
+        if(collider.CompareTag("Trigger1"))
         {
             trigger.text = "His Sword Is Broken, Be Quick and Kill Him";
             trigger1Object.GetComponent<Collider>().enabled = false;
             trigger2Object.SetActive(true);
         }
 
-         if(this.gameObject.tag == "Trigger2")
+         if(collider.CompareTag("Trigger2"))
         {
             mainCanvas.SetActive(false);
             trigger2Object.GetComponent<Collider>().enabled = false;
